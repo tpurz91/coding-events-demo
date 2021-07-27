@@ -7,13 +7,13 @@
 
 <table class="table table-striped">
     <thead>
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Description</th>
-            <th>Contact Email</th>
-            <th>Category</th>
-        </tr>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Contact Email</th>
+        <th>Category</th>
+    </tr>
     </thead>
     <tr th:each="event : ${events}">
         <td th:text="${event.id}"></td>
